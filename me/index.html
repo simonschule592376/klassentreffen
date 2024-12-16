@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rounded Rectangle with Image and Text</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+
+        .container {
+            width: 300px;
+            padding: 20px;
+            border-radius: 15px;
+            background-color: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .image {
+            width: 100px;
+            height: 100px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            object-fit: cover;
+            margin-top: 10px;
+        }
+
+        .text {
+            font-size: 16px;
+            color: #333;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="https://via.placeholder.com/100" alt="Image" class="image">
+        <div class="text">This is a space for your text. You can add any content here.</div>
+    </div>
+</body>
+</html>
